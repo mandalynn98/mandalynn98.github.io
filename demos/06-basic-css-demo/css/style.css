@@ -1,0 +1,33 @@
+#first-par{
+    color:rgb(70, 4, 132);
+    background-color: darkgreen;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-par{
+    color:yellow;
+    background-color: blue; 
+    font-size: 100px;
+    text-decoration: underline ;
+
+}
+
+#bold-par{
+    font-weight:bold;
+    background-color: aquamarine;
+   
+}
+#span1{
+    color: brown;
+    font-weight: bold;
+    fornt-size: 48px;
+}
+#span2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+#span3 {
+    background-color: rgb(89, 89, 169);
+    font-family: sans-serif; 
+}
