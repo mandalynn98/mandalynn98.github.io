@@ -1,0 +1,83 @@
+#palette1-title { 
+    font-family: fantasy;
+    text-align: center;
+}
+#palette1-color1 {
+    background-color: #2191FB;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette1-color2 {
+    background-color:#ba274a ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette1-color3 {
+    background-color:#841c26 ;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette2-title { 
+    font-family: fantasy;
+    text-align: center;
+}
+#palette2-color1 {
+    background-color:#6BD425 ;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette2-color2 {
+    background-color:#618B25 ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette2-color3 {
+    background-color:#42113C;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette3-title { 
+    font-family: fantasy;
+    text-align: center;
+}
+#palette3-color1 {
+    background-color:#2F4858 ;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette3-color2 {
+    background-color:#33658A ;
+    color: #f9f8f8;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette3-color3 {
+    background-color:#86BBD8;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+#palette3-color4 {
+    background-color:#C2F970;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 24px;
+}
+
