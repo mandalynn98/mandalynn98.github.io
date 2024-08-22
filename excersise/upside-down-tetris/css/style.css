@@ -7,20 +7,57 @@
     Good luck, and have fun!
 */
     .tetris-block{
+        border-color: rgb(1, 1, 1);
     border-width: 10px;
     border-style: outset;
     display: inline-block;
-    padding: 20px;
+    padding: 22px;
 }
 .blue{
     background-color: rgb(25, 0, 255);
     border-color: rgb(33, 90, 188);
+    border-style: groove;
 }
 .green{
     background-color: greenyellow;
     border-color: rgb(38, 186, 38);
+    border-radius: 40px 10px;
+   
 }
 .sky-blue{
     background-color: aqua;
     border-color: rgb(12, 144, 144);
+    border-style: ridge;
+
+}
+.red{
+    background-color: red;
+    border-color: rgb(158, 23, 23);
+    border-radius: 50px  ;
+    border-style: dashed;
+}
+.yellow{
+    background-color: yellow;
+    border-color: gold;  
+    border-radius: 10px 35px;
+}
+.purple{
+    background-color: blueviolet;
+    border-color: purple;
+    border-radius: 100px;
+}
+.pink{
+   background-color: palevioletred;
+   border-color: rgb(254, 8, 217);
+    border-radius: 9px 100px 12px 90px;
+}
+.orange{
+    background-color: orange;
+    border-color: rgb(224, 184, 7);
+   
+}
+.none{
+    border-color: black;
+    border-style:solid;
+
 }
