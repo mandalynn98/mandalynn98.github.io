@@ -16,3 +16,11 @@
     background-color: rgb(25, 0, 255);
     border-color: rgb(33, 90, 188);
 }
+.green{
+    background-color: greenyellow;
+    border-color: rgb(38, 186, 38);
+}
+.sky-blue{
+    background-color: aqua;
+    border-color: rgb(12, 144, 144);
+}
