@@ -1,0 +1,17 @@
+.adsolute-image{
+    width: 250px;
+}
+.relative-image{
+    width: 100%;
+}
+.outer-container{
+    border: 100px solid blue;
+}
+.inner-container p,
+.inner-container img{
+    background-color: blueviolet;
+    border: 10px solid red ;
+    width: 50%;
+}
+
+.
