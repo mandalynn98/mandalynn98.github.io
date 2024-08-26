@@ -8,41 +8,39 @@
 */
 
 #image1{
-    width: 100%;
-    display: block;
-    border: 10px solid rgba(6, 50, 70, 0.551);
-    padding: 5PX;
-    box-shadow: inset 0px 0px 16px 4px rgb(5, 9, 58);
+width: 100%;
+display: block;
+border: 10px solid rgba(6, 50, 70, 0.551);
+padding: 5PX;
+box-shadow: inset 0px 0px 16px 4px rgb(5, 9, 58);
 
 }
 .frame1{
-    width: 120px;
-    display: block;
-    margin-right: 20px;
-    margin-top: 90px;
+width: 120px;
+display: block;
+margin-right: 20px;
+margin-top: 90px;
 }
 
 #image2{
-    width: 70%;
-    margin-top: 30px;
-    margin-left: 10px;
-    border: 5px solid rgb(37, 36, 73);
-    
-
+width: 70%;
+margin-top: 30px;
+margin-left: 10px;
+border: 5px solid rgb(37, 36, 73);
 }
 
 h4{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+display: block;
+text-align: center;
 }
 .text-intro{
-    margin-top: 80px;
-    border: 10px solid darkblue;
-    background-color: rgb(8, 64, 132);
-    box-shadow: inset 0px 0px 16px 4px rgb(66, 111, 135);
+margin-top: 80px;
+border: 10px solid darkblue;
+background-color: rgb(8, 64, 132);
+box-shadow: inset 0px 0px 16px 4px rgb(66, 111, 135);
 }
 .inside-frame{
-    border: 3px  rgb(6, 58, 110);
+border: 3px  rgb(6, 58, 110);
 }
