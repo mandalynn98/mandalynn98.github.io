@@ -1,0 +1,54 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+#quote1{
+width: 125px;
+    display: inline-block;
+    border: 5px dotted rgb(13, 244, 229);
+    margin-left: 120px;
+    background-color: rgb(78, 4, 152);
+}
+.post-it{
+    display: inline-block;
+    border: 5px solid greenyellow;
+    background-color: beige;
+    text-align: center;
+    font-family: fantasy;
+    width: 150px;
+    padding: 24px;
+    margin-left: 220px;
+}
+.post-it2{
+    display: inline-block;
+    background-color: black;
+    border: 5px;
+    text-align: center;
+    width: 175px; 
+    margin-left: 254px;
+
+}  
+h3{
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+     sans-serif;
+}
+#qoute2{
+    display:inline-block;
+    width:125px;
+    margin-left: 90px;
+}
+#qoute3{
+    display: inline-block;
+    width: 125px;
+    margin-left: 125px;
+}
+#qoute4{
+    display: inline-block;
+    width: 125px;
+    margin-left: 195px;
+}
