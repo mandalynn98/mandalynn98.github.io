@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+.cover{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product1{
+    background-color: green;
+    text-align: center;
+    width: 50$;
+}
+.product2{
+    background-color: cadetblue;
+}
