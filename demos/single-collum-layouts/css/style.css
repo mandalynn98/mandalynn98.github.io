@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+.single-column{
+    background-color: lightgreen;
+    width:50% ;
+    min-width:500px;
+    
+}
