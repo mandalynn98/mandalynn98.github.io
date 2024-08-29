@@ -40,6 +40,9 @@ body{
 #heading1{
     text-decoration: underline;
 }
-hr{
-    background-color: black;
+h1{
+    border-bottom: 5px solid black;
+}
+h2{
+    border-bottom: 5px solid black;
 }
