@@ -5,6 +5,7 @@
 body{
     margin: 0px 2px;
     font-family: sans-serif;
+    text-align: center;
 }
 p{
     margin: 10px;
@@ -60,5 +61,7 @@ img{
 }
 h3{
     color: greenyellow;
+    text-align: center;
+    text-decoration: underline;
 }
 
