@@ -6,33 +6,66 @@ body{
     display: grid;
     margin: 0px;
     font-family: sans-serif;
-    background-color: #f6f8fa;
+    background-color: #a0a7ad;
     color: #f7f7fa;
     ;
 }
 
-#three-columns {
+#page-layout {
     display: grid;
-    grid-template-columns: 300px 2fr 250px;
-grid-template-areas: "colunm-1 column-3 column-2"
+    grid-template-columns: 50px 2fr 350px;
+    grid-template-areas: "column-1 column-2 column-3"
 }
-#three-columns h2,
-#three-columns h3 {
+#page-layout h2,
+#page-layout h3 {
     border-bottom: 2px solid #4d16c3;
     padding-bottom: 8px;
 }
 
-#three-columns ul {
+#page-layout ul {
     list-style-type: none;
     padding: 0px;
 }
 
-#three-columns ul li {
+#page-layout ul li {
     padding: 4px 0px;
 }
-#three-columns ul a {
+#page-layout ul a {
     color: #0e223c;
     text-decoration: none;
+}
+
+#column-1 {
+    margin-left: 24px;
+    text-align: center;
+    padding: 10px;
+    grid-area: column-1;
+}
+
+#column-2 {
+    padding: 6px 6px;
+    grid-area: column-2;
+}
+#column-2 div {
+    display: inline-block;
+}
+
+#column-3 {
+    display: block;
+    margin-right: 24px;
+    background-color:#8e8a8a;
+    grid-area: column-3;
+    text-align: center;
+}
+#main-content {
+    background-color: #bbb1b1;
+    text-align: center;
+    border-radius: 24px;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    
 }
 #button-1{
     display: block ;
@@ -47,38 +80,4 @@ grid-template-areas: "colunm-1 column-3 column-2"
     border-radius: 50px;
     border: 1px solid blue;
     
-}
-#column-1 {
-    margin-left: 24px;
-    text-align: center;
-    background-color: rgb(146, 151, 155);
-    padding: 10px;
-    grid-area: "column-2";
-}
-
-#column-2 {
-    padding: 6px 6px;
-    grid-area: "column-1";
-}
-
-#main-content {
-    background-color: #bbb1b1;
-    text-align: center;
-    border-radius: 24px;
-    padding: 24px;
-    width: 100%;
-    max-width: 600px;
-    margin: 0px auto;
-    
-}
-br{
-    color: #030750;
-}
-
-#column-3 {
-    display: block;
-    margin-right: 24px;
-    background-color:#8e8a8a;
-    grid-area: "column-3";
-    text-align: center;
 }
