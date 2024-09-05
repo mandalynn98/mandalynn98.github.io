@@ -6,7 +6,7 @@ body{
     margin: 0px;
     font-family: sans-serif;
 }
-#center-column{
+.center-column{
     width: 90vw;
     max-width: 800px;
     margin: 48px auto;
