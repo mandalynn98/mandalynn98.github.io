@@ -10,6 +10,16 @@ body{
     color: #f7f7fa;
     ;
 }
+#header{
+    display: block;
+    background: linear-gradient(to right, yellow, green, blue,
+    purple, red);
+    color: black;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+   'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
 
 #page-layout {
     display: grid;
