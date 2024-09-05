@@ -13,7 +13,8 @@ body{
 
 #page-layout {
     display: grid;
-    grid-template-columns: 50px 2fr 350px;
+    margin-top: 25px;
+    grid-template-columns: 500px 3fr 250px;
     grid-template-areas: "column-1 column-2 column-3"
 }
 #page-layout h2,
@@ -36,26 +37,32 @@ body{
 }
 
 #column-1 {
-    margin-left: 24px;
-    text-align: center;
-    padding: 10px;
+   padding: 10px;
     grid-area: column-1;
+    margin: 0px auto;
+
+}
+#column-1 img{
+    width: 100%;
+}
+#column-1 p img {
+    display: inline-flex;
+    width: 40%;
+    margin-right:5px ;
+
 }
 
 #column-2 {
     padding: 6px 6px;
     grid-area: column-2;
 }
-#column-2 div {
+#column-2 p{
+    color: white;
     display: inline-block;
-}
-
-#column-3 {
-    display: block;
-    margin-right: 24px;
-    background-color:#8e8a8a;
-    grid-area: column-3;
     text-align: center;
+}
+#column-2 b{
+    color: rgb(255, 7, 7);
 }
 #main-content {
     background-color: #bbb1b1;
@@ -67,17 +74,36 @@ body{
     margin: 0px auto;
     
 }
+#column-3 {
+    display: block;
+    margin-right: 24px;
+    border: #a0a7ad;
+    grid-area: column-3;
+    text-align: center;
+}
+
 #button-1{
     display: block ;
-    background-color: #2996d1;
+    background-color: #86c1e0;
     border-radius: 50px;
     border: 1px solid blue;
-    
+    margin-bottom: 5px;
 }
 #button-2{
     display: block ;
-    background-color: #2996d1;
+    background-color:blue ;
     border-radius: 50px;
-    border: 1px solid blue;
+    border: 1px solid #2996d1;
+    margin-bottom: 5px; 
     
+}
+#button-3{
+    display: block;
+    background-color: rgb(168, 131, 182);
+    color: blueviolet;
+    border-radius: 50px;
+    border: 1px solid blueviolet;
+}
+#main-image{
+    width: 100%;
 }
