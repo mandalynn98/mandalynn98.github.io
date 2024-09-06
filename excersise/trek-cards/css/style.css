@@ -7,19 +7,14 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
-.card-container{
-    width: 90vw;
-    max-width: 350px;
-    margin: 48px auto;
-    gap: 36px;
-    
-}
+
 .card-style-1{
     width: 350px;
     border-radius: 2px;
     background-color: rgb(246, 246, 246);
-    display:inline-block;
+    display:block;
     flex-direction: column;
+    margin: 10px;
     
 }
 .card-style-1 a {
