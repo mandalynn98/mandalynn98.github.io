@@ -11,9 +11,9 @@
     width: 350px;
     border: 10px solid gold;
     border-radius: 20px;
-    display:block;
+    display:inline-block;
     margin: 10px;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 #pokemon-card-1,
@@ -30,16 +30,16 @@ background-color: red;
 }
 .pokemon-header{
     display: flex;
-    
-    
+    align-items: center; 
 }
 .pokemon-header .name {
 margin-right: 40px;
-display: block;
+display: flex;
+flex: 1;
 text-align: left;
 }
 .pokemon-header .health{
-    display:block;
+    display:flex;
     text-align: right;
 }
 .card-style-3 .details {
@@ -47,12 +47,8 @@ text-align: left;
     background-color: gold;
     font-weight:bold ;
     font-size: 12px;
-    display:inline-block;
-    text-align: center;
+    display:flex;
     width: 80%;
-    align-items: center;
-    padding-left: 10px;
-    
 }
 .card-style-3 img{
     width: 85%;
@@ -65,6 +61,8 @@ text-align: left;
     text-align: center;
     padding: 15px;
     font-size: 16px;
+    border-bottom: 2px solid black;
+    margin: 5px
 }
 .attack .description span {
     font-weight: bold;
