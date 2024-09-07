@@ -29,7 +29,7 @@ background-color: red;
     background-color:  aqua;
 }
 .pokemon-header{
-    display: inline-block;
+    display: flex;
     
     
 }
@@ -73,4 +73,10 @@ text-align: left;
 }
 .power {
     display: block;
+}
+.data{
+    font-size: 12px;
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
 }
