@@ -48,6 +48,7 @@ text-align: left;
     font-weight:bold ;
     font-size: 12px;
     display:flex;
+    flex: 2;
     width: 80%;
 }
 .card-style-3 img{
@@ -62,7 +63,6 @@ text-align: left;
     padding: 15px;
     font-size: 16px;
     border-bottom: 2px solid black;
-    margin: 5px
 }
 .attack .description span {
     font-weight: bold;
@@ -70,11 +70,14 @@ text-align: left;
     text-align: center;
 }
 .power {
-    display: block;
+    display: flex;
+    flex: 1;
 }
 .data{
     font-size: 12px;
     text-align: left;
     padding: 12px;
     font-weight: bold;
+    display: flex;
+    flex: 1;
 }
