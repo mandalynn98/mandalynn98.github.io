@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1{
+    background-image: url("../images/pexels-pixabay-38238.jpg");
+    height: 75vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-1 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 5vw;
+    color: rgb(3, 3, 3);
+    text-align:left;
+    padding-top: 45px;
+    padding-right:40px ;
+    margin-bottom: 45vh;
+
+}
+#hero-1 h4{
+    font-size: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 6, 6);
+    margin-top: 40vh;  
+}
+#hero-1 a{
+    font-size: 1.5vh;
+    display:inline-flex;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-2{
+    background-image: url("../images/pexels-pixabay-161963.jpg");
+    height: 95vh;
+    background-size: cover;
+    color: #070707;
+    background-position: center center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#hero-2 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    margin-left: 30px;
+    padding: 20px ;
+    background-color: aqua;
+    border-radius: 25px 100px 25px 25px;
+}
+
+#hero-2 h3 {
+    background-color: rgb(8, 16, 82);
+    color: rgba(231, 237, 231, 0.725);
+    font-size: 3vw;
+    padding-top: 5;
+    border-radius:   25px 25px 100px 25px;
+    padding: 20px;
+    padding-right: 4px;
+    margin: 10px;
+}
+#hero-2 a {
+    font-size: .75vw;
+    display: inline-block;
+    background-color: rgb(11, 20, 101);
+    color: #f7f5f5;
+    text-decoration: none;
+    text-align: left;
+    border: solid black 5px;
+    padding: 25px;
+    margin: 5vh 5vw 10vh 10px;
+    border-radius: 15px; 
+}
+#hero-3{
+    background-image:url(../images/drifting.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    position:fixed;
+}
+
+#hero-3 h1 {
+    font-size: 8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5vw;
+    text-align: center;
+    color: #0473e2;
+    
+}
+
+#hero-3 h3 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3vw;
+    color: rgb(21, 20, 20);
+    padding-top: 12vh;
+    padding-left: 5vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #434343;
+    color: rgb(66, 238, 9);
+    text-decoration: none;
+    padding: 4px;
+    margin: 5vh 5vw 10vh 0px;
+}
