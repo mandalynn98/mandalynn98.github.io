@@ -26,17 +26,18 @@ body{
 
 }
 #hero-1 h4{
-    font-size: 8vh;
+    font-size: 10vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(6, 6, 6);
-    margin-top: 40vh;  
+    color: yellow;
+    margin-top: 30vh;
+    margin-left: 25vw;  
 }
 #hero-1 a{
     font-size: 1.5vh;
+    text-align: center;
     display:inline-flex;
     background-color: #333333;
-    color: white;
-    text-decoration: none;
+    color: yellow;
     padding: 10px;
     margin: 5vh 5vw 10vh 0px;
 }
