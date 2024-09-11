@@ -40,6 +40,8 @@ body{
 }
 .gallery{
     border: 10px solid greenyellow;
+    background:linear-gradient(to bottom ,blue, greenyellow,
+    purple, rgb(226, 22, 131));
     columns: 3 auto;
     column-gap: 24px;
 }
