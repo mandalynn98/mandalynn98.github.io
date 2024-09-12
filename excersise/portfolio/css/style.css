@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+#hero{
+    background-image:url(../images/IMG_1422-EFFECTS.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#hero h1 {
+    color: rgb(0, 0, 0);
+    font-size: 8vw;
+    margin: 30vh;
+    margin-bottom: 40vh;
+}
+
+
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #199332;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 35vh;
+    margin-right: 1vw;
+}
+.spacer{
+height:20vh
+}
+#about{
+    border: 5px solid burlywood;
+    align-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#gallery{
+    display: flex;
+    gap: 24px;
+    max-width: 100px;
+   text-align: center;
+}
+
+#gallery img{
+    width: 100%;
+
+}
