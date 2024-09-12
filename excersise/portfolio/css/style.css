@@ -43,17 +43,13 @@ body{
 height:20vh
 }
  .card-container a{
-    font-size: 1.5vw;
-    display: block;
-    background-color: #199332;
-    color: white;
-    text-decoration: none;
-
+   color: white;
 }
 #card-section {
-    background-color: #0b6956;
-    color: #bfefff;
-    padding: 48px;
+    padding: 48px; 
+    font-size: 1.5vw;
+    
+    text-decoration: none;
 }
 .card-container {
     display: flex;
