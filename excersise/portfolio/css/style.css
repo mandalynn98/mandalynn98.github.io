@@ -42,7 +42,39 @@ body{
 .spacer{
 height:20vh
 }
+ .card-container a{
+    font-size: 1.5vw;
+    display: block;
+    background-color: #199332;
+    color: white;
+    text-decoration: none;
+
+}
+#card-section {
+    background-color: #0b6956;
+    color: #bfefff;
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 #about{
+    border: 5px solid burlywood;
+    align-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#gallery-card{
+    border: 5px solid burlywood;
+    align-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#contact{
     border: 5px solid burlywood;
     align-content: center;
     margin: 20px;
@@ -57,27 +89,35 @@ height:20vh
    justify-content: center;
    padding: 5vw;
 }
+#gallery h3{
+    grid-area: 1;
+}
 
 #gallery img{
-    width: 50%;
+    width: 100%;
 
 }
 #designs{
-    border: 5px solid black;
+    border: 15px ridge black;
+    background-color: #4f2a14;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
+    padding: 4px;
 }
 #designs img{
 width: 100%;
 height: 100%;
-padding: 10px;
 }
 .portrait{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px; 
-
-    padding: 24px;
-    border: 10px solid #333333;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 500px;
+    gap: 12px;
+    padding: 4px;
+    border: 15px solid #333333;
+}
+.portrait img{
+    width: 100%;
+    height: 100%;
 }
