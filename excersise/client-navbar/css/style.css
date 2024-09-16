@@ -26,7 +26,7 @@ body{
     margin-right: auto;
 }
 #navbar2{
-    background: linear-gradient( to bottom,orange,pink ,yellow);
+    background: linear-gradient( to bottom,rgb(255, 17, 0),pink ,rgb(255, 204, 0));
     display:flex;
     justify-content: space-between;
     align-items: center;    
@@ -53,4 +53,64 @@ body{
     font-weight: bold;
     min-width: 150px;
     margin-left: 80px;
+}
+#navbar3{
+    background: linear-gradient( to bottom,rgb(85, 11, 82),rgb(0, 0, 0) ,
+    rgb(255, 111, 0));
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+#Navbar3 h1{
+    font-size: xx-large;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Splash", cursive;
+    font-size: xx-large;
+    font-style:normal;    
+}
+#bogo{
+    text-decoration: none;
+    color: red;
+}
+#navbar3 h1{
+    font-family: "Creepster", system-ui;
+    font-weight:bold;
+    font-style: normal;
+    margin-left: 10px;
+}
+#navbar3 a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    margin: 15px;
+}
+#navbar3 .cta-button{
+    background-color: rgb(239, 0, 0);
+    color: rgb(237, 237, 237);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    margin-left: 80px;
+}
+#bottom{
+    display:block;
+    text-align: center;
+    padding: 24px;
+    background:linear-gradient( rgb(255, 111, 0), black,rgb(85, 11, 82));
+}
+#bottom a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    font-size:small;
+    background-color:rgb(85, 11, 82 ;
+
 }
