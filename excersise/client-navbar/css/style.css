@@ -52,8 +52,8 @@ body{
     padding: 16px 24px;
     font-size: 15px;
     font-weight: bold;
-    min-width: 150px;
-    margin-left: 80px;
+    min-width: 250px;
+    margin-left: 8px;
 }
 #navbar3{
     background: linear-gradient( to bottom,rgb(85, 11, 82),rgb(0, 0, 0) ,
