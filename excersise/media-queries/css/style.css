@@ -215,24 +215,37 @@ a {
     }
     #hero h1{
         justify-content: center;
-        font-size: 50px; 
+        font-size: 62px; 
     }
     #hero h3{
         font-size: 32px;
         text-align: center;
     }
     .three-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        grid-template-areas: 
+        "card";
+        display: grid;
         text-align: center;
     }
     .three-cards h3{
         margin: 0px;
         font-size: 32px;
     }
-   #content-container{
+    .two-cards{
+        display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        "three-cards"
-        "two-cards";
-   }
+        gap: 18px;
+        grid-template-areas: "card";
+        display: grid;
+        text-align: center;
+    }
+
+    #footer{
+        justify-content: center;
+    }
+   
 }
 /* TODO: Add your media query code here */
