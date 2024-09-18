@@ -479,15 +479,15 @@ body {
         "card-3"
         "aside"  
         "blog"
-        "blog"
         "footer"
         "bottom";
     }
-
-    #nav{
-        flex-direction: wrap;
+    #sheild-image{
+        display: none;
     }
-    #nav a{
-        flex: 250px;
-    } 
+    #search-button{
+        display: none;
+    }
+
+   
 }
