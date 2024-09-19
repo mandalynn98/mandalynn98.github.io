@@ -8,7 +8,7 @@ body{
 }
 #hero {
     background-image: url("../images/pexels-wildlittlethingsphoto-4256737.jpg");
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
