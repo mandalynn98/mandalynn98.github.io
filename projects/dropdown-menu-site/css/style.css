@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero {
+    background-image: url("../images/pexels-wildlittlethingsphoto-4256737.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    padding-top: 1vh;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 35vh;
+    padding-top: 20vh;
+}
+
+#hero h4 {
+    color: aliceblue;
+    padding-top: 60px;
+    font-size: 6vw;
+}
+
+#hero a {
+    font-size: 2.5vw;
+    display: inline-block;
+    background-color: rgb(245, 245, 0);
+    color: black;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 24px;
+    margin: 3vh 2vw 20vh;
+}
