@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#heading{
+    display:block;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+#cards-container1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 50px;  
+}
+#cards-container2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 60px;  
+}#cards-container3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;  
+}
+
+.gallery1{
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.gallery1 a{
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
+#card1:hover{
+    background-color: rgb(255, 0, 221);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card1{
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+.gallery2{
+    flex: 200px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    }
+    .gallery2 a{
+        text-decoration: none;
+        color: black;
+        border: 3px solid black;
+        display: block;
+        padding: 12px;
+        margin-top: 36px;
+    }
+    #card2{
+        position: relative;
+    }
+    #card2 .card-content2 {
+        position: absolute;
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 12px;
+        box-shadow: 4px 4px 4px #00000033;
+        padding: 24px;
+        left: 0px;
+        margin: 0px 24px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-8px);
+        transition:
+            opacity 0.5s,
+            visibility 0.5s,
+            transform 0.5s;
+    }
+    #card2:hover .card-content2 {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+    }
+.gallery3{
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.gallery3 a{
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
