@@ -102,7 +102,7 @@ body{
 .gallery3{
     color: blue;
     flex: 300px;
-    background-color: chartreuse;
+    background-color: rgb(195, 255, 0);
     border: 3px solid black;
     margin: 24px;
     padding: 24px;
@@ -118,6 +118,7 @@ body{
     margin-top: 36px;
 }
 #card3 .card-content3{
+    font-weight: bold;
     opacity: 0;
     visibility: hidden;
     transform:translateY(-8px);
@@ -127,6 +128,8 @@ body{
         transform 0.5s;
 }
 #card3:hover .card-content3{
+    font-weight: bold;
+    color: darkslategrey;
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
