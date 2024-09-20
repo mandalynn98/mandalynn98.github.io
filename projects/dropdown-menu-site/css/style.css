@@ -155,7 +155,8 @@ body{
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px); 
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:500px){
+
 .profile-container a{
     flex-wrap: wrap;
     flex-direction: column;
@@ -166,4 +167,7 @@ body{
     flex-direction: column;
     align-items: center;
 } 
+#logo{
+   margin-right: 20px;
+}
 }
