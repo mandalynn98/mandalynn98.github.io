@@ -155,8 +155,13 @@ body{
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px); 
 }
-@media screen and (max-width:500px){
-
+@media screen and (max-width:680px){
+.profile-container img{
+    width: 80%;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .profile-container a{
     flex-wrap: wrap;
     flex-direction: column;
@@ -168,6 +173,6 @@ body{
     align-items: center;
 } 
 #logo{
-   margin-right: 20px;
+   margin:auto;
 }
 }
