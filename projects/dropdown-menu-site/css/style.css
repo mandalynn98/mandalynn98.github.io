@@ -94,7 +94,7 @@ body{
 .body{
     text-align: center;
     width: 70%; 
-    min-width: 500px;
+    max-width: 700px;
     margin: 0px auto;
 }
 .body a {
@@ -122,13 +122,12 @@ body{
     justify-content: center center;
     text-align: center;
     width: 50%;
-    min-width: 300px;
+    max-width: 500px;
     margin: auto auto;
     padding-bottom: 5vh;
 }
 .profile-container img{
-    width: 50%;
-    min-width: 500px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -158,7 +157,6 @@ body{
 @media screen and (max-width:680px){
 .profile-container img{
     width: 80%;
-    min-width: 150px;
     margin-left: auto;
     margin-right: auto;
 }
