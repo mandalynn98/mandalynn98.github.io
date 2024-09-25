@@ -173,7 +173,7 @@ width: 100%;
 #three-columns p {
     margin-top: 12px;
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:610px){
     .two-columns img{
         width: 80%;
         margin-left: auto;
