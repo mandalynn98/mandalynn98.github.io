@@ -173,4 +173,29 @@ width: 100%;
 #three-columns p {
     margin-top: 12px;
 }
+@media screen and (max-width:680px){
+    .two-columns img{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .three-columns a{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    } 
+    #logo{
+       margin:auto;
+    }
+    #footer-nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;  
+    }
+    }
     
