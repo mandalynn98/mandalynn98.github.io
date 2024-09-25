@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>final project restaurant site
+        </title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="layout">
+            <div id="navbar">
+                <a href="index.html" id="logo">
+                    <img 
+                    src="images/Custom-Logo-final-project-MVance-01.jpg"
+                     alt="logo">
+                </a>
+                <a href="menu.html">Menu</a>
+                <a href="contactus.html">Contact us</a>
+                <a href="menu.html" class="cta-buttom">Order Now</a>
+            </div>
+            <div id="hero">
+                <h1>Contact Us</h1>
+            </div>
+            <header>
+                <h1>Contact Us</h1>
+                <p>
+                    Got a question? 
+                    We'd love to hear from you. 
+                    Send us a message and we'll
+                    respond as soon as possible.
+                </p>
+            </header>
+            <main>
+                
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                >
+                    <div>
+                        <label for="services_id">
+                            What can we help you with?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select what we can help you with
+                            </option>
+                            <option value="catering">
+                                Catering
+                            </option>
+                            <option value="events">
+                                Event information
+                            </option>
+                            <option value="customer support">
+                                Customer support
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. John Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="I would like you to..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            <div id="spacer"></div>
+            <div id="footer">
+                <div id="footer-navbar">
+                    <span>&copy; Mystic Bites</span>
+                    <a href="menu.html">Menu</a>
+                    <a href="contactus.html">Contact infromation</a>
+                    <a href="#">Doordash/grubhub</a>
+                    <a href="#">Job Oppertunity</a>
+                </div>
+            </div>
+    </div>
+    </body>
+    </html>

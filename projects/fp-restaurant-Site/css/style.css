@@ -13,7 +13,6 @@ body{
     font-size: 3vh;
     border-bottom:3px outset rgb(245, 214, 90);
 }
-    
 #navbar a {
     text-decoration: none;
     font-weight: bold;
@@ -71,6 +70,7 @@ body{
     background-position: center center;
     display: flex;
     justify-content: flex-end;
+    padding-right: 50px;
     align-items: center;
 }
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');  
@@ -83,8 +83,7 @@ body{
     font-size: 10vw;
     margin-right: 25px;
     padding-left: 10vw;
-}
-    
+}    
 #spacer{
     height: 10vh;
     background-image: url("../images/spacer1.jpeg");
@@ -100,11 +99,9 @@ body{
     background-color: #020202;
     border: solid rgb(245, 214, 90) 5px;
 }
-
 .two-columns {
     display: flex;height: 100vh;
 }
-    
 .big-text-column,
 .img-column {
     width: 50%;
@@ -112,19 +109,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-    
 .big-text-column {
     background-color: #8e1a1a;
     color: white;
     font-size: 28px;
 }
-    
 .column-content {
     margin: 48px;
     text-align: center;
 }
-    
-    
 .img-column img {
     height: 100%;
     width: 100%;
@@ -147,7 +140,6 @@ body{
 #three-columns2 img{
 width: 100%;
 }
-
 #column-1 {
     padding: 5px 12px;
     grid-area: column-area-1;
@@ -156,33 +148,104 @@ width: 100%;
     padding: 0px 12px;
     grid-area: column-area-2;
 }
-    
 #column-3 {
 
     padding: 0px 12px;
     grid-area: column-area-3;
 }
-    
 #three-columns h2,
 #three-columns h3 {
     border-bottom: 2px solid #888888;
     padding-bottom: 4px;
     margin-bottom: 0px;
 }
-    
 #three-columns p {
     margin-top: 12px;
 }
-@media screen and (max-width:610px){
+#layout {
+    width: 500px;margin: 0px auto;}
+    
+header,
+footer {
+    text-align: center;padding: 50px;}
+    
+header p {
+    font-size: 14px;}
+    
+form {
+    background-color: white;
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+}
+
+    
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+    
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+    
+textarea {
+    font-family: sans-serif;}
+    
+    
+input[type=submit] {
+    width: auto;
+    background-color: #0e6de1;
+    color: white;
+    border: 0;
+    border-radius: 3px;min-width: 75px;
+}
+    
+    
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+@media screen and (max-width:830px){
+    .cta-buttom{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 25px;
+
+    }
+    .big-text-column h2{
+        text-align: center;
+        font-size: 6vh;
+    }
+    .column-content p{
+        font-size: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
     .two-columns img{
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-    .three-columns a{
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
+    #three-columns img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #three-columns{
+        display: flex;
+    }
+    #three-columns2{
+        display: flex;
     }
     #navbar {
         flex-wrap: wrap;
@@ -192,10 +255,11 @@ width: 100%;
     #logo{
        margin:auto;
     }
-    #footer-nav{
+    #footer-navbar{
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: center;  
+        align-items: center; 
+        width: 400px; 
     }
-    }
+}
     
