@@ -42,15 +42,20 @@ body{
 }
 #footer {
     background: linear-gradient(to bottom,green, #01482e);
-    color: white;padding: 12px;
+    color: white;
+    padding: 12px;
 }
     
 #footer a {
-    text-decoration: none;color: white;
+    text-decoration: none;
+    color: white;
 }
     
 #footer-navbar {
-    width: 800px;margin: 0px auto;display: flex;justify-content: space-between;
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
 .cta-buttom{
     background-color: white;
@@ -164,7 +169,7 @@ width: 100%;
     margin-top: 12px;
 }
 #layout {
-    width: 500px;
+    width: 300px;
     margin: 0px auto;}
     
 header,
@@ -181,11 +186,14 @@ form {
     border: 2px solid #CCCCCC;
     border-radius: 2px;
 }
+
+    
 form div label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-}   
+}
+    
 input,
 select,
 textarea {
@@ -194,7 +202,8 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #CCCCCC;
     margin-bottom: 16px;
-}   
+}
+    
 textarea {
     font-family: sans-serif;}
     
@@ -204,8 +213,11 @@ input[type=submit] {
     background-color: #0e6de1;
     color: white;
     border: 0;
-    border-radius: 3px;min-width: 75px;
-}   
+    border-radius: 3px;
+    min-width: 75px;
+}
+    
+    
 input:not(:focus):not(:placeholder-shown):invalid {
     background-color: lightcoral;
     border: 2px solid red;
@@ -240,9 +252,11 @@ input:not(:focus):not(:placeholder-shown):invalid {
     }
     #three-columns{
         display: flex;
+        flex-wrap: wrap;
     }
     #three-columns2{
         display: flex;
+        flex-wrap: wrap;
     }
     #navbar {
         flex-wrap: wrap;
@@ -256,14 +270,29 @@ input:not(:focus):not(:placeholder-shown):invalid {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center; 
-        width: 400px; 
+        width: 300px; 
+        min-width: none;
     }
-    .column-content h2{
+    .two-columns h2 {
         font-size: 5vh;
     }
-    .column-content p{
+    .two-columns p{
         font-size: 3vh;
-
     }
+    #column-2 h3 p{ 
+        font-size: 2vh;
+    }
+    #column-1 h3 p{
+        font-size: 3vh;
+    }
+    #column-3 h3 p{
+        font-size: 3vh;
+    }
+    #column-1,
+    #column-2,
+    #column-3{
+    
+    }
+
 }
     
