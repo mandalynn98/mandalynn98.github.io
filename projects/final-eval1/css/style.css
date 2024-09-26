@@ -99,3 +99,6 @@ body{
     box-shadow 0.5s,
     transform 0.5s;
 }
+.image-container p{
+    font-size: 2vh;
+}
