@@ -101,7 +101,7 @@ body{
     display: block;
     color: beige;
     font-size: 3vh;
-    padding-bottom: 10px;
+    padding: 10px;
     background: linear-gradient(to bottom,green, #01482e);
     border: solid rgb(245, 214, 90) 5px;
 
