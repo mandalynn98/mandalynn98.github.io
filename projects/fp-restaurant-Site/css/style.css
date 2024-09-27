@@ -106,7 +106,7 @@ body{
 }
 .two-columns {
     display: flex;
-    height: 100vh;
+    height: 70vh;
 }
 .big-text-column,
 .img-column {
@@ -156,14 +156,22 @@ width: 100%;
 }
 #column-3 {
 
-    padding: 0px 12px;
+    padding: 10px 12px;
     grid-area: column-area-3;
 }
 #three-columns h2,
 #three-columns h3 {
     border-bottom: 2px solid #888888;
-    padding-bottom: 4px;
-    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-bottom:10px;
+}
+#three-columns2 h2,
+#three-columns2 h3 {
+    border-bottom: 2px solid #888888;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 #three-columns p {
     margin-top: 12px;
@@ -239,6 +247,11 @@ input:not(:focus):not(:placeholder-shown):invalid {
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
+        margin: 5px;
+    }
+    .column-content h2{
+        font-size: large;
+        padding: 10px;
     }
     .two-columns img{
         width: 100%;
@@ -288,11 +301,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     #column-3 h3 p{
         font-size: 3vh;
     }
-    #column-1,
-    #column-2,
-    #column-3{
     
-    }
 
 }
     
