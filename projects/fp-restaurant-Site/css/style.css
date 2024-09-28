@@ -28,7 +28,20 @@ body{
     border-radius: 50px;
     width: 150px;
 }
-
+#navbar a{
+    border-radius: 50px;
+    transition: 
+    background-color 0.5s,
+    box-shadown0.5s,
+    transform 0.5s;
+}
+#navbar a:hover {
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: red;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px); 
+}
     
 #navbar .cta-buttom {
     background-color: white;
