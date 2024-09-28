@@ -118,9 +118,6 @@ body{
     padding: 10px;
     background: linear-gradient(to bottom,green, #01482e);
 }
-#featured h2{
-    border: solid red 3px; 
-}
 #featured img{
     justify-items: center;
     width: 50%;
