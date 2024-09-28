@@ -97,16 +97,21 @@ body{
 }
 #featured {
     text-align: center;
-    justify-content: center;
-    display: block;
+    justify-content: center center;
+    display: flex;
+    flex-wrap: wrap;
     color: beige;
     font-size: 3vh;
     padding: 10px;
     background: linear-gradient(to bottom,green, #01482e);
 }
+#featured h2{
+    border: solid red 3px; 
+}
 #featured img{
-    display: inline-block;
+    justify-items: center;
     width: 50%;
+    padding-left: 70px;
 }
 #heading{
     text-align: center;
