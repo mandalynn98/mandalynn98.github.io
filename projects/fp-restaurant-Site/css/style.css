@@ -299,6 +299,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     #three-columns{
         display: flex;
         flex-wrap: wrap;
+        align-content: center;
     }
     #three-columns2{
         display: flex;
